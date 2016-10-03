@@ -5,7 +5,7 @@ This project is designed to be used as a starting place for creating a React lib
 #### Includes
 
 - [Jest](https://facebook.github.io/jest/) for testing
-- [GitBook](https://www.gitbook.com) for docs
+- [GitBook](https://www.gitbook.com) for docs. [Sample generated docs](https://pbeshai.github.io/react-library-starter/).
 - [Travis CI](https://travis-ci.org/) configuration
 - [AirBnB eslint](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb) with a couple rule changes
 - CommonJS and UMD build targets
