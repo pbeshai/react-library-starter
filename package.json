@@ -29,6 +29,7 @@
     "dev": "cross-env BABEL_ENV=commonjs babel src --watch --out-dir lib",
     "prepublish": "npm run clean && npm run check:src && npm run build",
     "docs:prepare": "gitbook install",
+    "docs:clean": "rimraf _book",
     "docs:build": "npm run docs:prepare && gitbook build -g react-library-starter-author/react-library-starter",
     "docs:watch": "npm run docs:prepare && gitbook serve",
     "docs:publish": "npm run docs:clean && npm run docs:build && cd _book && git init && git commit --allow-empty -m 'update book' && git checkout -b gh-pages && touch .nojekyll && git add . && git commit -am 'update book' && git push git@github.com:react-library-starter-author/react-library-starter gh-pages --force"
